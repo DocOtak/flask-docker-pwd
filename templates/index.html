@@ -1,0 +1,12 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <title>File Listing</title>
+</head>
+<body>
+    {%- for file in files -%}
+    <a href="/analyze/{{file}}">{{ file }}</a><br/>
+    {%- endfor -%}
+</body>
+</html>
